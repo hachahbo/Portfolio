@@ -22,18 +22,18 @@ export function Contact() {
             <CardContent className="p-8 text-center">
               <div className="mb-8 space-y-4">
                 <a
-                  href="mailto:hello@aaabadcode.dev"
+                  href="mailto:Hamzachahboune92@gmail.com"
                   className="group inline-flex items-center gap-2 text-lg font-mono text-primary transition-colors hover:text-foreground"
                 >
                   <Mail className="h-5 w-5" />
-                  hello@aaabadcode.dev
+                  Hamzachahboune92@gmail.com
                   <ArrowUpRight className="h-4 w-4 opacity-0 transition-all group-hover:opacity-100 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
                 </a>
               </div>
 
               <div className="flex justify-center gap-4">
                 <a
-                  href="https://github.com/aaaby-code"
+                  href="https://github.com/hachahbo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={buttonVariants({ variant: "outline", size: "lg" })}
@@ -42,13 +42,13 @@ export function Contact() {
                   GitHub
                 </a>
                 <a
-                  href="https://x.com/aaabadcode"
+                  href="https://linkedin.com/in/hachahbo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={buttonVariants({ variant: "outline", size: "lg" })}
                 >
-                  <XIcon className="mr-2 h-4 w-4" />
-                  Twitter
+                  <span className="font-mono text-sm font-semibold tracking-wide mr-2">In</span>
+                  LinkedIn
                 </a>
               </div>
             </CardContent>

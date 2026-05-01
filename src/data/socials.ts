@@ -1,18 +1,17 @@
-export interface Social {
-  name: string;
-  url: string;
-  icon: string;
-}
-
-export const socials: Social[] = [
+export const socials = [
   {
     name: "GitHub",
-    url: "https://github.com/aaaby-code",
-    icon: "Github",
+    url: "https://github.com/hachahbo", 
+    icon: "github"
   },
   {
-    name: "X / Twitter",
-    url: "https://x.com/aaabadcode",
-    icon: "Twitter",
+    name: "LinkedIn",
+    url: "https://linkedin.com/in/hachahbo",
+    icon: "linkedin"
   },
+  {
+    name: "Email",
+    url: "mailto:Hamzachahboune92@gmail.com",
+    icon: "mail"
+  }
 ];

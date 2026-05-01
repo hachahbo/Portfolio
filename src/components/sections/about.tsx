@@ -7,9 +7,9 @@ import { FadeIn } from "@/components/motion/fade-in";
 import { Card, CardContent } from "@/components/ui/card";
 
 const stats = [
-  { label: "Projects Shipped", value: "30+" },
-  { label: "Years Experience", value: "5+" },
-  { label: "Models Trained", value: "100+" },
+  { label: "Projects Shipped", value: "5+" },
+  { label: "Years Experience", value: "2.5+" },
+  { label: "Models Trained", value: "3+" },
   { label: "Papers Read", value: "∞" },
 ];
 
@@ -30,7 +30,7 @@ export function About() {
               <div className="relative overflow-hidden rounded-2xl border border-border/50 neon-glow">
                 <Image
                   src="https://images.unsplash.com/photo-1607706189992-eae578626c86?w=600&h=600&fit=crop&crop=center"
-                  alt="Aaabad Touk"
+                  alt="Hamza Chahboune"
                   width={600}
                   height={600}
                   className="w-full aspect-square object-cover"
@@ -51,15 +51,9 @@ export function About() {
                   </div>
                   <pre className="font-mono text-xs leading-relaxed text-muted-foreground">
                     <code>
-{`$ whoami
-> aaabad_touk
-
-$ cat skills.txt
-> pytorch, langchain, nextjs,
-> kubernetes, python, typescript
-
-$ echo $STATUS
-> building the future`}
+{`$ whoami > hamza_chahboune
+$ cat current_focus.txt > web_cybersecurity, microservices
+$ cat hobbies.txt > 5v5_football, hypertrophy_training`}
                     </code>
                   </pre>
                 </CardContent>
@@ -72,19 +66,10 @@ $ echo $STATUS
             <div className="flex flex-col justify-center space-y-8">
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I&apos;m Aaabad Touk, an AI engineer based in San Francisco. I
-                  specialize in building end-to-end machine learning systems — from
-                  training custom models to deploying them at scale.
+                  I&apos;m Hamza Chahboune, a results-driven Software Engineer with a rigorous background from 1337 School. I specialize in building scalable web applications and transitioning monolithic architectures into distributed microservices.
                 </p>
                 <p>
-                  My work spans large language models, computer vision, and MLOps.
-                  I believe the best AI isn&apos;t the most complex — it&apos;s the
-                  one that reliably ships value to users.
-                </p>
-                <p>
-                  When I&apos;m not training models or optimizing inference
-                  pipelines, you&apos;ll find me contributing to open-source ML
-                  tools and writing about practical AI engineering.
+                  My work focuses on asynchronous event-driven communications, microservices architecture, and high-performance system design. I believe in clean code, robust software patterns, and the power of automation.
                 </p>
               </div>
 

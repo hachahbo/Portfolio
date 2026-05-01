@@ -56,7 +56,7 @@ export function Projects() {
                     </p>
 
                     <div className="flex flex-wrap gap-2">
-                      {project.tech.map((t) => (
+                      {(project.tech || []).map((t) => (
                         <TechBadge key={t}>{t}</TechBadge>
                       ))}
                     </div>

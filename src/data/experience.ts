@@ -1,42 +1,28 @@
-export interface Experience {
-  company: string;
-  role: string;
-  period: string;
-  description: string;
-  tech: string[];
-}
-
-export const experiences: Experience[] = [
+export const experiences = [
   {
-    company: "DeepMind",
-    role: "Senior AI Research Engineer",
-    period: "2023 — Present",
-    description:
-      "Leading research on multi-modal foundation models. Built internal tooling for large-scale distributed training across TPU pods.",
-    tech: ["JAX", "TPU", "Transformers", "Python"],
+    company: "Cloud Marketing Hub",
+    role: "Full-Stack & Systems Architecture",
+    period: "2025 - Present",
+    date: "2025 - Present",
+    description: "Architected a containerized distributed system comprising 14 decoupled microservices. Engineered asynchronous event-driven communication using RabbitMQ and implemented real-time WebSocket broadcasting via Laravel Reverb.",
+    tech: ["Laravel", "RabbitMQ", "Docker", "WebSockets"]
   },
   {
-    company: "OpenAI",
-    role: "ML Platform Engineer",
-    period: "2021 — 2023",
-    description:
-      "Designed and scaled inference infrastructure for GPT models. Reduced latency by 40% through model optimization and caching strategies.",
-    tech: ["Python", "Kubernetes", "CUDA", "Redis"],
+    company: "Cloud Marketing Hub",
+    role: "Software Engineering Intern",
+    period: "2024 - 2025",
+    date: "2024 - 2025",
+    description: "Developed dynamic full-stack web applications utilizing the Laravel ecosystem and Vue.js/Nuxt.js. Applied clean code principles and OOP within an agile environment.",
+    tech: ["Laravel", "Vue.js", "Nuxt.js", "OOP"]
   },
   {
-    company: "Scale AI",
-    role: "Full-Stack ML Engineer",
-    period: "2020 — 2021",
-    description:
-      "Built data labeling pipelines and quality assurance systems for computer vision datasets. Shipped annotation tools used by 5k+ labelers.",
-    tech: ["React", "Python", "FastAPI", "PostgreSQL"],
-  },
-  {
-    company: "Hugging Face",
-    role: "Open Source Engineer (Intern)",
-    period: "2019 — 2020",
-    description:
-      "Contributed to the Transformers library. Implemented model architectures and wrote documentation for community adoption.",
-    tech: ["PyTorch", "Transformers", "TypeScript", "Docker"],
-  },
+    company: "1337 Coding School (UM6P)",
+    role: "Software Engineering Curriculum",
+    period: "2023 - Present",
+    date: "2023 - Present",
+    description: "Intensive, peer-to-peer software engineering program focusing on C/Unix, algorithms, and complex computational problem-solving.",
+    tech: ["C/Unix", "Algorithms", "Problem Solving"]
+  }
 ];
+
+export const experience = experiences;

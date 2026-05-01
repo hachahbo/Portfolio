@@ -50,8 +50,8 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="mb-4 text-5xl font-bold tracking-tight sm:text-7xl"
         >
-          Aaabad{" "}
-          <span className="gradient-text">Touk</span>
+          Hamza{" "}
+          <span className="gradient-text">Chahboune</span>
         </motion.h1>
 
         {/* Handle */}
@@ -61,7 +61,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="mb-6 font-mono text-sm text-muted-foreground"
         >
-          @aaabadcode
+          Software Engineer | Distributed Systems & Full-Stack
         </motion.p>
 
         {/* Tagline */}
@@ -71,8 +71,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mx-auto mb-10 max-w-2xl text-lg text-muted-foreground sm:text-xl"
         >
-          AI engineer building intelligent systems — from LLMs and computer
-          vision to production ML pipelines. Turning research into products.
+          Results-driven Software Engineer with a rigorous background from 1337 School. Specializing in building scalable web applications and transitioning monolithic architectures into distributed microservices.
         </motion.p>
 
         {/* CTAs */}
@@ -96,7 +95,7 @@ export function Hero() {
           </a>
           <div className="flex items-center gap-2">
             <a
-              href="https://github.com/aaaby-code"
+              href="https://github.com/hachahbo"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -105,13 +104,13 @@ export function Hero() {
               <GithubIcon className="h-5 w-5" />
             </a>
             <a
-              href="https://x.com/aaabadcode"
+              href="https://linkedin.com/in/hachahbo"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Twitter"
+              aria-label="LinkedIn"
               className={buttonVariants({ variant: "ghost", size: "icon" })}
             >
-              <XIcon className="h-5 w-5" />
+              <span className="font-mono text-sm font-semibold tracking-wide">In</span>
             </a>
           </div>
         </motion.div>

@@ -15,21 +15,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aaabad Touk — AI Engineer",
+  title: "Hamza Chahboune — AI Engineer",
   description:
-    "Portfolio of Aaabad Touk (@aaabadcode) — AI engineer building intelligent systems, from LLMs to computer vision.",
+    "Portfolio of Hamza Chahboune (@hachahbo) — AI engineer building intelligent systems, from LLMs to computer vision.",
   openGraph: {
-    title: "Aaabad Touk — AI Engineer",
+    title: "Hamza Chahboune — AI Engineer",
     description:
       "AI engineer building intelligent systems, from LLMs to computer vision.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aaabad Touk — AI Engineer",
+    title: "Hamza Chahboune — AI Engineer",
     description:
       "AI engineer building intelligent systems, from LLMs to computer vision.",
-    creator: "@aaabadcode",
+    creator: "@hachahbo",
   },
 };
 
