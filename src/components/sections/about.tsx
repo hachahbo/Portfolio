@@ -27,7 +27,7 @@ export function About() {
           {/* Image + Terminal */}
           <FadeIn direction="left">
             <div className="space-y-6">
-              <div className="relative overflow-hidden rounded-2xl border border-border/50 neon-glow">
+              <div className="relative overflow-hidden mx-auto max-w-[250px] sm:max-w-[300px] md:max-w-none md:w-full rounded-2xl border border-border/50 neon-glow">
                 <Image
                   src="https://images.unsplash.com/photo-1607706189992-eae578626c86?w=600&h=600&fit=crop&crop=center"
                   alt="Hamza Chahboune"
