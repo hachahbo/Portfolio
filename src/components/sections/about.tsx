@@ -27,7 +27,7 @@ export function About() {
           {/* Image + Terminal */}
           <FadeIn direction="left">
             <div className="space-y-6">
-              <div className="relative overflow-hidden mx-auto max-w-[250px] sm:max-w-[300px] md:max-w-none md:w-full rounded-2xl border border-border/50 neon-glow">
+              <div className="relative overflow-hidden w-full max-w-[380px] sm:max-w-[350px] md:max-w-none mx-auto rounded-2xl border border-border/50 neon-glow">
                 <Image
                   src="https://images.unsplash.com/photo-1607706189992-eae578626c86?w=600&h=600&fit=crop&crop=center"
                   alt="Hamza Chahboune"
@@ -39,8 +39,8 @@ export function About() {
               </div>
 
               {/* Terminal block */}
-              <Card className="border-border/50 bg-card/50 backdrop-blur-sm">
-                <CardContent className="p-4">
+              <Card className="border-border/50 bg-card/50 backdrop-blur-sm w-full overflow-hidden">
+                <CardContent className="p-4 w-full">
                   <div className="mb-3 flex items-center gap-2">
                     <div className="h-3 w-3 rounded-full bg-red-500/70" />
                     <div className="h-3 w-3 rounded-full bg-yellow-500/70" />
@@ -49,7 +49,7 @@ export function About() {
                       terminal
                     </span>
                   </div>
-                  <pre className="font-mono text-xs leading-relaxed text-muted-foreground">
+                  <pre className="font-mono text-[10px] sm:text-xs leading-relaxed text-muted-foreground overflow-x-auto whitespace-pre-wrap break-words w-full">
                     <code>
 {`$ whoami > hamza_chahboune
 $ cat current_focus.txt > web_cybersecurity, microservices
